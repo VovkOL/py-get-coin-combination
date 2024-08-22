@@ -17,7 +17,7 @@ class TestGetCoinCombination:
             pytest.param(
                 6, [1, 1, 0, 0],
                 id="6 penny should return [1, 1, 0, 0].",
-                ),
+            ),
             pytest.param(
                 17, [2, 1, 1, 0],
                 id="17 penny should return [2, 1, 1, 0].",
